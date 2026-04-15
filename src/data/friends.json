@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://i.pravatar.cc/300?u=david",
+    "email": "david.kim@work.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["work", "hobby"],
+    "bio": "Marketing colleague. We enjoy hiking and discussing the latest tech trends together.",
+    "goal": 14,
+    "next_due_date": "2026-04-28"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://i.pravatar.cc/300?u=emma",
+    "email": "emma.wilson@email.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family", "mentor"],
+    "bio": "Former colleague and great mentor. Preferred way of contact: email.",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.pravatar.cc/300?u=lisa",
+    "email": "lisa.nakamura@tech.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["work", "travel"],
+    "bio": "Work friend from the Japan office. We love planning trips together.",
+    "goal": 21,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://i.pravatar.cc/300?u=james",
+    "email": "james.wright@email.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "College buddy. We played basketball together every weekend.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Chen",
+    "picture": "https://i.pravatar.cc/300?u=sarah",
+    "email": "sarah.chen@email.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Childhood friend. Always there for deep conversations.",
+    "goal": 30,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Johnson",
+    "picture": "https://i.pravatar.cc/300?u=marcus",
+    "email": "marcus.j@email.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["hobby", "sports"],
+    "bio": "Gym buddy and fellow runner.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Martinez",
+    "picture": "https://i.pravatar.cc/300?u=olivia",
+    "email": "olivia.m@email.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["work"],
+    "bio": "Team lead. We collaborate on many projects.",
+    "goal": 14,
+    "next_due_date": "2026-04-23"
+  },
+  {
+    "id": 8,
+    "name": "Alex Patel",
+    "picture": "https://i.pravatar.cc/300?u=alex",
+    "email": "alex.patel@email.com",
+    "days_since_contact": 25,
+    "status": "almost due",
+    "tags": ["close friend"],
+    "bio": "Best friend since high school. Loves video games.",
+    "goal": 21,
+    "next_due_date": "2026-04-18"
+  }
+]
