@@ -4,23 +4,21 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="flex flex-col items-center text-center">
           <img src="/assets/logo-xl.png" alt="KeenKeeper" className="h-12 mb-4" />
-          <h2 className="text-4xl font-bold mb-3">KeenKeeper</h2>
           <p className="max-w-md text-white/80 mb-8">
-            Your personal shelf of meaningful connections.<br />
-            Browse, tend, and nurture the relationships that matter most.
+            Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
           </p>
 
           <div>
             <p className="text-sm uppercase tracking-widest mb-3">Social Links</p>
             <div className="flex gap-4">
               <a href="#" className="w-9 h-9 bg-white/10 hover:bg-white/20 rounded-2xl flex items-center justify-center transition-all">
-                <img src="/assets/facebook.png" alt="Facebook" className="w-5 h-5 brightness-0 invert" />
+                <img src="/assets/facebook.png" alt="Facebook" className="w-full h-full" />
               </a>
               <a href="#" className="w-9 h-9 bg-white/10 hover:bg-white/20 rounded-2xl flex items-center justify-center transition-all">
-                <img src="/assets/instagram.png" alt="Instagram" className="w-5 h-5 brightness-0 invert" />
+                <img src="/public/assets/instagram.png" alt="Instagram" className="w-full h-full" />
               </a>
               <a href="#" className="w-9 h-9 bg-white/10 hover:bg-white/20 rounded-2xl flex items-center justify-center transition-all">
-                <img src="/assets/twitter.png" alt="Twitter" className="w-5 h-5 brightness-0 invert" />
+                <img src="/public/assets/twitter.png" alt="Twitter" className="w-full h-full" />
               </a>
             </div>
           </div>

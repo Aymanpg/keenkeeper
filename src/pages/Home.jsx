@@ -42,19 +42,19 @@ export default function Home() {
 
         {/* Summary Cards */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-          <div className="bg-white border border-gray-100 rounded-3xl p-6 text-center shadow-sm">
+          <div className="bg-white border border-gray-100 rounded-2xl p-6 text-center shadow-sm">
             <div className="text-4xl font-bold text-primary">{totalFriends}</div>
             <div className="text-text-body text-sm mt-1">Total Friends</div>
           </div>
-          <div className="bg-white border border-gray-100 rounded-3xl p-6 text-center shadow-sm">
-            <div className="text-4xl font-bold text-on-track">{onTrack}</div>
+          <div className="bg-white border border-gray-100 rounded-2xl p-6 text-center shadow-sm">
+            <div className="text-4xl font-bold text-primary">{onTrack}</div>
             <div className="text-text-body text-sm mt-1">On Track</div>
           </div>
-          <div className="bg-white border border-gray-100 rounded-3xl p-6 text-center shadow-sm">
-            <div className="text-4xl font-bold text-almost-due">{needAttention}</div>
+          <div className="bg-white border border-gray-100 rounded-2xl p-6 text-center shadow-sm">
+            <div className="text-4xl font-bold text-primary">{needAttention}</div>
             <div className="text-text-body text-sm mt-1">Need Attention</div>
           </div>
-          <div className="bg-white border border-gray-100 rounded-3xl p-6 text-center shadow-sm">
+          <div className="bg-white border border-gray-100 rounded-2xl p-6 text-center shadow-sm">
             <div className="text-4xl font-bold text-primary">{interactionsThisMonth}</div>
             <div className="text-text-body text-sm mt-1">Interactions This Month</div>
           </div>
