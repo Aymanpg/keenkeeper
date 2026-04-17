@@ -10,17 +10,17 @@ export default function Stats() {
   const videoCount = timeline.filter(t => t.type === 'video').length
 
   const data = [
-    { name: 'Call', value: callCount, color: '#244d3f' },
-    { name: 'Text', value: textCount, color: '#1a8862' },
-    { name: 'Video', value: videoCount, color: '#efad44' },
+    { name: 'Call', value: callCount, color: '#1F4D3F' },
+    { name: 'Text', value: textCount, color: '#7A3CFF' },
+    { name: 'Video', value: videoCount, color: '#36A86B' },
   ]
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-10">
+    <div className="max-w-7xl mx-auto px-44 py-8">
       <h1 className="text-4xl font-bold text-text-dark mb-8">Friendship Analytics</h1>
 
       <div className="bg-white rounded-3xl p-10 shadow-sm">
-        <h3 className="text-xl font-semibold mb-8 text-center">By Interaction Type</h3>
+        <h3 className="text-xl font-semibold mb-8 text-left">By Interaction Type</h3>
         
         <div className="h-96">
           <ResponsiveContainer width="100%" height="100%">

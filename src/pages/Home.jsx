@@ -24,7 +24,7 @@ export default function Home() {
   const interactionsThisMonth = 12 // You can make this dynamic later if you want
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-8">
+    <div className="max-w-7xl mx-auto px-44 py-8">
       {/* Banner */}
       <div className="bg-white rounded-3xl shadow-sm p-10 text-center mb-12">
         <h1 className="text-5xl font-bold text-text-dark mb-4">

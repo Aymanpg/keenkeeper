@@ -19,7 +19,7 @@ export default function Timeline() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-10">
+    <div className="max-w-7xl mx-auto px-44 py-8">
       <h1 className="text-4xl font-bold text-text-dark mb-2">Timeline</h1>
 
       {/* Dropdown Filter */}

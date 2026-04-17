@@ -15,10 +15,10 @@ export default function Footer() {
                 <img src="/assets/facebook.png" alt="Facebook" className="w-full h-full" />
               </a>
               <a href="#" className="w-9 h-9 bg-white/10 hover:bg-white/20 rounded-2xl flex items-center justify-center transition-all">
-                <img src="/public/assets/instagram.png" alt="Instagram" className="w-full h-full" />
+                <img src="/assets/instagram.png" alt="Instagram" className="w-full h-full" />
               </a>
               <a href="#" className="w-9 h-9 bg-white/10 hover:bg-white/20 rounded-2xl flex items-center justify-center transition-all">
-                <img src="/public/assets/twitter.png" alt="Twitter" className="w-full h-full" />
+                <img src="/assets/twitter.png" alt="Twitter" className="w-full h-full" />
               </a>
             </div>
           </div>
