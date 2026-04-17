@@ -19,27 +19,29 @@ export default function Timeline() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-44 py-8">
-      <h1 className="text-4xl font-bold text-text-dark mb-2">Timeline</h1>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 xl:px-44 py-6 sm:py-8">
+      <h1 className="text-3xl sm:text-4xl font-bold text-text-dark mb-2 sm:mb-4">
+        Timeline
+      </h1>
 
       {/* Dropdown Filter */}
-<div className="pt-6 mb-8 border-b pb-4">
-  <select
-    value={filter}
-    onChange={(e) => setFilter(e.target.value)}
-    className="w-[347px] h-[55px] px-6 rounded-2xl text-sm font-medium bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
-  >
-    <option value="all">All</option>
-    <option value="call">Call</option>
-    <option value="text">Text</option>
-    <option value="video">Video</option>
-  </select>
-</div>
+      <div className="pt-4 sm:pt-6 mb-8 border-b pb-4">
+        <select
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+          className="w-full md:w-[347px] h-[55px] px-6 rounded-2xl text-sm font-medium bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
+        >
+          <option value="all">All</option>
+          <option value="call">Call</option>
+          <option value="text">Text</option>
+          <option value="video">Video</option>
+        </select>
+      </div>
 
       {/* Timeline List */}
-      <div className="space-y-4">
+      <div className="space-y-3 sm:space-y-4">
         {filteredTimeline.length === 0 ? (
-          <p className="text-center text-text-body py-12">
+          <p className="text-center text-text-body py-8 sm:py-12 text-base">
             No interactions yet.
             <br />
             Select Call/Text/Video from dropdown to filter!
@@ -48,14 +50,14 @@ export default function Timeline() {
           filteredTimeline.map(entry => (
             <div
               key={entry.id}
-              className="bg-white rounded-3xl p-5 flex items-center gap-5 border border-gray-100"
+              className="bg-white rounded-3xl p-4 sm:p-5 flex items-center gap-4 sm:gap-5 border border-gray-100"
             >
               <div className="w-10 h-10 bg-accent/10 rounded-2xl flex items-center justify-center flex-shrink-0">
                 {getIcon(entry.type)}
               </div>
 
-              <div className="flex-1">
-                <p className="font-medium text-text-dark">{entry.title}</p>
+              <div className="flex-1 min-w-0">
+                <p className="font-medium text-text-dark truncate">{entry.title}</p>
                 <p className="text-sm text-text-body">
                   {new Date(entry.date).toLocaleDateString('en-US', {
                     month: 'short',

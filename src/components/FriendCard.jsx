@@ -12,24 +12,24 @@ export default function FriendCard({ friend }) {
   return (
     <div
       onClick={() => navigate(`/friend/${friend.id}`)}
-      className="bg-[#f9fafb] rounded-2xl border border-gray-200 hover:shadow-md transition-all cursor-pointer"
+      className="bg-[#f9fafb] rounded-2xl border border-gray-200 hover:shadow-md transition-all cursor-pointer h-full"
     >
-      <div className="flex flex-col items-center text-center px-6 py-8">
+      <div className="flex flex-col items-center text-center px-4 sm:px-6 py-6 sm:py-8">
 
         {/* Avatar */}
         <img
           src={friend.picture}
           alt={friend.name}
-          className="w-20 h-20 rounded-full object-cover mb-4"
+          className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover mb-4"
         />
 
         {/* Name */}
-        <h3 className="font-semibold text-lg text-text-dark">
+        <h3 className="font-semibold text-base sm:text-lg text-text-dark">
           {friend.name}
         </h3>
 
         {/* Days ago */}
-        <p className="text-sm text-text-body mt-1">
+        <p className="text-xs sm:text-sm text-text-body mt-1">
           {friend.days_since_contact}d ago
         </p>
 

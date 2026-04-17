@@ -16,21 +16,25 @@ export default function Stats() {
   ]
 
   return (
-    <div className="max-w-7xl mx-auto px-44 py-8">
-      <h1 className="text-4xl font-bold text-text-dark mb-8">Friendship Analytics</h1>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 xl:px-44 py-6 sm:py-8">
+      <h1 className="text-3xl sm:text-4xl font-bold text-text-dark mb-6 sm:mb-8">
+        Friendship Analytics
+      </h1>
 
-      <div className="bg-white rounded-3xl p-10 shadow-sm">
-        <h3 className="text-xl font-semibold mb-8 text-left">By Interaction Type</h3>
+      <div className="bg-white rounded-3xl p-6 sm:p-8 lg:p-10 shadow-sm">
+        <h3 className="text-lg sm:text-xl font-semibold mb-6 sm:mb-8 text-left">
+          By Interaction Type
+        </h3>
         
-        <div className="h-96">
+        <div className="h-72 sm:h-80 lg:h-96">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie
                 data={data}
                 cx="50%"
                 cy="50%"
-                innerRadius={80}
-                outerRadius={130}
+                innerRadius={60}
+                outerRadius={110}
                 paddingAngle={5}
                 dataKey="value"
               >
@@ -46,7 +50,7 @@ export default function Stats() {
       </div>
 
       {timeline.length === 0 && (
-        <p className="text-center text-text-body mt-12">
+        <p className="text-center text-text-body mt-8 sm:mt-12 text-base sm:text-lg">
           No data yet. Start making calls, texts, or video calls from any friend’s detail page!
         </p>
       )}
