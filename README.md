@@ -1,16 +1,33 @@
-# React + Vite
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A beautiful React web app that helps you nurture and track your friendships by reminding you when to reach out, logging your interactions, and showing your friendship analytics.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Smart Friend Dashboard** – View all friends with status pills (Overdue / Almost Due / On Track) and last contact days
+- **Interactive Timeline** – Log Call, Text, or Video check-ins with real-time updates and filters
+- **Friendship Analytics** – Live Pie Chart (Recharts) showing your interaction distribution
+- **Responsive Design** – Works perfectly on mobile, tablet, and desktop
+- **Friend Details Page** – Rich 2-column layout with quick check-in buttons, stats, and actions
+- **404 Page + Loading Animation** – Polished user experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **React.js** (Vite)
+- **React Router DOM** – For smooth page navigation
+- **Tailwind CSS** – For modern, responsive styling
+- **Recharts** – For the beautiful analytics pie chart
+- **Lucide React** – For clean icons
+- **LocalStorage** – For persistent timeline data
+
+---
+
+## 🚀 Live Demo
+
+**Live Link:** [https://keenkeeper-ten.vercel.app/](https://keenkeeper-ten.vercel.app/)  
